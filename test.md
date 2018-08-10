@@ -77,9 +77,15 @@ It looks like the kill switch disables detection of the peak current, so that th
 
 ## Bench generator test
 
-### Driver schematics
+### Charger driver schematics
 
-![driver schematics](assets/charge-coil/experiments/driver-schematics.png)
+Simple half-bridge driver which attempts to simulate the charing coil behaviour.
+
+![charger driver schematics](assets/charge-coil/experiments/driver-schematics.png)
+
+### Trigger driver schematics
+
+![trigger driver schematics](assets/trigger-coil/driver-schematics.png)
 
 ### Test run
 
