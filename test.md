@@ -60,6 +60,13 @@ On this image it is quite easy to see incomplete charge cycles (threshold not re
 ![zoom out](assets/charge-coil/loaded/loaded-zoom-out.png)
 
 
+#### Kill switch on
+
+It looks like the kill switch disables detection of the peak current, so that the coil remains grounded for the whole positive half-period.  
+
+![Kill switch on](assets/charge-coil/loaded/loaded-kill-switch-on.png)
+
+
 # On the bench
 
 ## DC test
@@ -69,6 +76,12 @@ On this image it is quite easy to see incomplete charge cycles (threshold not re
 ![dc test](assets/charge-coil/experiments/attempt-12v-test-coil.png)
 
 ## Bench generator test
+
+### Driver schematics
+
+![driver schematics](assets/charge-coil/experiments/driver-schematics.png)
+
+### Test run
 
 ![bench test](assets/charge-coil/experiments/stand-supply.png)
 
