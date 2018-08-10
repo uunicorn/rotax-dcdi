@@ -29,6 +29,10 @@
 
 ![Finished charge cycle](assets/charge-coil/loaded/loaded-complete-charge.png)
 
+#### Zoom out view of a couple of cycles
+
+![zoom out](assets/charge-coil/loaded/loaded-zoom-out.png)
+
 
 # On the bench
 
