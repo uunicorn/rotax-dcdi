@@ -19,7 +19,7 @@ Unloaded measurements were performed on disconnected coils while running the eng
 ### Charging coil
 
 Voltage frequency is a crankshaft rotations per second multiplied by 5.
-This is due to 10 magnetic poles on the rotor with, while a full voltage period requiring 2 poles to pass over the charging coil.
+This is due to 10 magnetic poles on the rotor with a full voltage period requiring 2 poles to pass over the charging coil.
 
 #### @ 3210.0 RPM
 
