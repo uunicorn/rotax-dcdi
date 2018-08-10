@@ -43,13 +43,19 @@ This is due to 10 magnetic poles on the rotor with a full voltage period requiri
 
 #### Incomplete charge cycle
 
+In order to boost the charging voltage, the module shortens about the first half of the positive half-period of the wave to the ground. When the current reaches it's maximum, module releases all stored in the coil energy into the capacitor. It works like a boost converter with the stator coil acting as an inductor.
+
 ![Incomplete charge cycle](assets/charge-coil/loaded/loaded-incomplete-charge.png)
 
 #### Finished charge cycle
 
+Charging voltage is limited by a threshold (~200v). When it is reached, the coil is again shortened to the ground to prevent capacitor overcharge.
+
 ![Finished charge cycle](assets/charge-coil/loaded/loaded-complete-charge.png)
 
 #### Zoom out view of a couple of cycles
+
+On this image it is quite easy to see incomplete charge cycles (threshold not reached) and it is even possible to guess when capacitor was discharged and the spark generated.
 
 ![zoom out](assets/charge-coil/loaded/loaded-zoom-out.png)
 
@@ -58,7 +64,7 @@ This is due to 10 magnetic poles on the rotor with a full voltage period requiri
 
 ## DC test
 
-12v through 24v light bulb and a secondary winding of a 220v to 24v transformer.
+12v DC through 24v light bulb and a secondary winding of a 220v to 24v transformer.
 
 ![dc test](assets/charge-coil/experiments/attempt-12v-test-coil.png)
 
