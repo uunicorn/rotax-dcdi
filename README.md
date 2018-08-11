@@ -37,6 +37,8 @@ This is due to 10 magnetic poles on the rotor with a full voltage period requiri
 
 ![Trigger coil @ 2106 RPM](assets/trigger-coil/unloaded.png)
 
+Cut-in: 5v p-p (less - no spark)
+
 ## Loaded tests
 
 ### Charging coil
