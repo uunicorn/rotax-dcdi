@@ -37,7 +37,8 @@ This is due to 10 magnetic poles on the rotor with a full voltage period requiri
 
 ![Trigger coil @ 2106 RPM](assets/trigger-coil/unloaded.png)
 
-Cut-in: 5v p-p (less - no spark)
+Cut-in: >= 5v p-p (less - no spark)
+Spark on leading edge of flywheel cam (normal op): >= 16v p-p (less - trailing edge (start mode))
 
 ## Loaded tests
 
