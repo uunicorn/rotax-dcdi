@@ -4,6 +4,8 @@ The work is split into several steps:
  - in-place measurements on the running engine
  - experiments with the module on the bench
 
+All experiments were done on the old SMD module PN 965358.
+
 # Understanding what to expect from the charging coils
 
 According to the manual, stator has 10 poles, 8 of which are allocated for alternator and remaining two are independent charging coils supplying power to each DCDI module.
@@ -37,8 +39,11 @@ This is due to 10 magnetic poles on the rotor with a full voltage period requiri
 
 ![Trigger coil @ 2106 RPM](assets/trigger-coil/unloaded.png)
 
-- Cut-in: >= 5v p-p (less - no spark)
-- Spark on leading edge of flywheel cam (normal op): >= 16v p-p (less - trailing edge (start mode))
+- Cut-in: >= ~5v p-p (less - no spark)
+- Spark on leading edge of flywheel cam (normal op): >= ~16v p-p (less - trailing edge (start mode))
+
+P-p voltage depends on a coil gap, therefore RPM setting on which transition from startup mode to normal mode occurs may vary. 
+Newer modules do not depend on the voltage/gap setting, instead they switch to a normal mode after a fixed delay.
 
 ## Loaded tests
 
