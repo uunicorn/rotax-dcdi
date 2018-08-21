@@ -6,6 +6,8 @@ The work is split into several steps:
 
 All experiments were done on the old SMD module PN 965358.
 
+Note: all measurements and calculations here are vague and approximate. The whole thing was only done out of curiosity and to understand how things work.
+
 # Understanding what to expect from the charging coils
 
 According to the manual, stator has 10 poles, 8 of which are allocated for alternator and remaining two are independent charging coils supplying power to each DCDI module.
@@ -23,17 +25,34 @@ Unloaded measurements were performed on disconnected coils while running the eng
 Voltage frequency is a crankshaft rotations per second multiplied by 5.
 This is due to 10 magnetic poles on the rotor with a full voltage period requiring 2 poles to pass over the charging coil.
 
+L=13.5 mH
+R=4.1 Ohm
+
 #### @ 3210.0 RPM
 
 ![Uloaded charging coil @ 3210 RPM](assets/charge-coil/unloaded/unloaded.png)
 
 ~212v peak-to-peak
 
+Impedance |Z| = 23 Ohm
+
+Peak short circuit current I = 4.6 A (calculated)
+
 #### @ 2345 RPM
 
 ![Uloaded charging coil @ 2345 RPM](assets/charge-coil/unloaded/unloaded-2.png)
 
 ~150v peak-to-peak. This is about 53v rms for a sine wave and probably sligly less for the observed signal shape. Definitely not enough to charge CDI capacitor directly.
+
+Impedance |Z| = 17 Ohm
+
+Peak short circuit current I = 4.4 A (calculated)
+
+Energy stored in the coil per alternator period W = 0.136 J
+Min full periods between sparks = 2.
+Max energy transferred to CDI capacitor between sparks W = 0.272 J
+Cut-off voltage across capacitor ~220v.
+Max CDI capacitance = 11 uF
 
 ### Trigger coil @ 2106 RPM
 
